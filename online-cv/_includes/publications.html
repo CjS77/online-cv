@@ -1,0 +1,100 @@
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Publications</h2>
+        </div>
+    </div>
+    <div class="row">
+        <!-------------------------  Academic publications -------------------------->
+        <div class="col-md-12 mt-2">
+            <h3><i class="fa fa-graduation-cap me-2"></i>Academic publications</h3>
+        </div>
+        <div class="pe-5 ps-1">
+            <div class="table-responsive">
+                <table class="table table-default table-striped">
+                    <thead>
+                    <th>#</th>
+                    <th>Author</th>
+                    <th>Title</th>
+                    <th>Journal</th>
+                    <th>Date</th>
+                    </thead>
+                    {% for paper in site.data.publications.academic %}
+                    <tr>
+                        <td>{{ forloop.index }}</td>
+                        <td>{{ paper.author }}</td>
+                        <td>{{ paper.title }}
+                            {% if paper.url %}
+                            <a href="{{ paper.url }}" target="_blank"><i class="fa fa-globe-africa"></i></a>
+                            {% endif %}
+                        </td>
+                        <td>{{ paper.journal }}</td>
+                        <td>{{ paper.date }}</td>
+                    </tr>
+                    {% endfor %}
+                </table>
+            </div>
+        </div>
+
+        <!-------------------------  Blog posts -------------------------->
+        <div class="col-md-12 mt-4">
+            <h3><i class="fa fa-pen-nib me-2"></i>Selected blog posts</h3>
+        </div>
+        <div class="pe-5 ps-1">
+            <div class="table-responsive">
+                <table class="table table-default table-striped">
+                    <thead>
+                    <th>#</th>
+                    <th>Date</th>
+                    <th>Date</th>
+                    </thead>
+                    {% for paper in site.data.publications.blogs %}
+                    <tr>
+                        <td>{{ forloop.index }}</td>
+                        <td>{{ paper.date }}</td>
+                        <td>
+                            {% if paper.url %}
+                                <a href="{{ paper.url }}" target="_blank" class="publications">{{ paper.title }}</a>
+                            {% else %}
+                                {{ paper.title }}
+                            {% endif %}
+                        </td>
+
+                    </tr>
+                    {% endfor %}
+                </table>
+            </div>
+        </div>
+
+        <!-------------------------  White papers -------------------------->
+        <div class="col-md-12 mt-4">
+            <h3><i class="fa fa-wrench me-2"></i>Whitepapers and technical writing</h3>
+        </div>
+        <div class="pe-5 ps-1">
+            <div class="table-responsive">
+                <table class="table table-default table-striped">
+                    <thead>
+                    <th>#</th>
+                    <th>Title</th>
+                    <th>Abstract</th>
+                    </thead>
+                    {% for paper in site.data.publications.technical %}
+                    <tr>
+                        <td>{{ forloop.index }}</td>
+                        <td>
+                            {% if paper.url %}
+                            <a href="{{ paper.url }}" target="_blank" class="publications">{{ paper.title }}</a>
+                            {% else %}
+                            {{ paper.title }}
+                            {% endif %}
+                        </td>
+                        <td>{{ paper.abstract }}</td>
+                    </tr>
+                    {% endfor %}
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+</div>

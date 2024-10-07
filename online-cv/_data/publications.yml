@@ -1,0 +1,160 @@
+academic:
+  - author: Sharrock, C. and van Heerden, S.
+    title: "TariScript: Bringing dynamic scripting to Mimblewimble"
+    journal: Cryptology ePrint Archive
+    date: 2023
+    url: https://eprint.iacr.org/2023/1127
+  - author: McGregor, C. and Grove, J.J.C. and Crause, C. and Naude, H. and Sharrock, C.J.
+    title: "Sasol's ModCo™ detergent range alcohols"
+    journal: "Proceedings: South African Chemical Engineers Congress"
+    date: 2006
+  - author: Sharrock, C.J.
+    title: A process modelling framework in the Delphi Programming language
+    journal: "Proceedings: SAIChe Western Cape chapter, Cape Town"
+    date: 2006
+  - author: Sharrock, C.J.
+    title: Plantwide holistic optimisation using gPROMS
+    journal: gPROMS Annual Meeting, London
+    date: 2011
+  - author: Sharrock, C.J.
+    title: "Process modelling across the technology development lifecycle: from laboratory experimentation to economic optimisation"
+    journal: Advanced Process Modelling Forum, London
+    date: 2012
+  - author: Sharrock,C.J. and Coetzer, R.
+    title: Selecting Robust Kinetic Models on Noisy Data Using the Bootstrap
+    journal: International Journal of Chemical Reaction Engineering
+    date: Vol 5, 2007
+    url: https://www.degruyter.com/document/doi/10.2202/1542-6580.1479/pdf
+  - author: Sharrock,C.J. and Coetzer, R.
+    title: A method of selecting robust kinetic models on noisy data
+    journal: "Proceedings: CRE XI - Green Reactor Engineering, Bilbao, Spain"
+    date: 2007
+  - author: Sharrock, C.J.
+    title: The Next Big Thing
+    journal: The Chemical Engineer
+    date: February, 2016
+  - author: Sharrock, C.J.
+    title: Securing support for new ideas -- a cheat sheet for Innovators
+    journal: The Chemical Engineer
+    date: October, 2014
+  - author: Sharrock, C.J.
+    title: The Wisdom of Crowds
+    journal: The Chemical Engineer
+    date: July, 2015
+
+blogs:
+  - title: Introducing the fungible joule
+    url: https://medium.com/@cayle/introducing-the-fungible-joule-325e51285ef2
+    date: Jul 21, 2021
+  - title: So you think you need a blockchain, part 1
+    url: https://medium.com/@cayle/so-you-think-you-need-a-blockchain-part-i-a75389808c00
+    date: May 27, 2018
+  - title: So you think you need a blockchain, part 2
+    url: https://medium.com/@cayle/so-you-think-you-need-a-blockchain-part-ii-71a62c5f1a1a
+    date: Jul 8, 2018
+  - title: A recipe for turning waste gas into Diesel
+    url: https://www.saasta.ac.za/sciencecommunicators/winners/2006/Sharrock_C.pdf
+    date: August 24, 2006
+  - title: How fast can Tari be? How to scale a PoW system to 4,000 TPS
+    url: https://www.tari.com/updates/2023-09-11-update-117
+    date: September 11, 2023
+  - title: Pivoting on the DAN
+    url: https://www.tari.com/updates/2022-09-22-update-89
+    date: September 22, 2022
+
+technical:
+  - title: Overview of Tari Network
+    abstract: |
+      The aim of this proposal is to provide a very high-level perspective of the moving parts of the Tari protocol.
+    url: https://rfc.tari.com/RFC-0001_overview
+
+  - title: Base Layer Full Nodes (Base Nodes)
+    abstract: |
+      The aim of this Request for Comment (RFC) is to describe the roles that [base node]s play in the Tari network as well as
+      their general approach for doing so.
+    url: https://rfc.tari.com/RFC-0110_BaseNodes
+
+  - title: Base Node Architecture
+    abstract: |
+     The aim of this Request for Comment (RFC) is to describe the high-level Base Node architecture.
+    url: https://rfc.tari.com/RFC-0111_BaseNodeArchitecture
+
+  - title: Base Layer Consensus
+    abstract: |
+      The aim of this Request for Comment (RFC) is to describe the fields that a block should contain as well as all consensus rules that will determine the validity of a block.
+    url: https://rfc.tari.com/RFC-0120_Consensus
+
+  - title: Consensus-level burn transactions
+    abstract: |
+      The aim of this Request for Comment (RFC) is to describe the process of Burning UTXOs and to track the amount burned.
+    url: https://rfc.tari.com/RFC-0122_Burning
+
+  - title: "Sparse Merkle Trees: A mutable data structure for TXO commitments"
+    abstract: |
+      This Request for Comment (RFC) proposes replacing the current Mutable Merkle Mountain Range (MMMR) data structure
+      used for tracking the commitment to the UTXO set, with a Sparse Merkle tree (SMT).
+    url: https://rfc.tari.com/RFC-0141_Sparse_Merkle_Trees
+
+  - title: Staged Wallet Security
+    abstract: |
+      This Request for Comment (RFC) aims to describe Tari's ergonomic approach to securing funds in a hot wallet.
+      The focus is on mobile wallets, but the strategy described here is equally applicable to console or desktop wallets.
+    url: https://rfc.tari.com/RFC-0153_StagedWalletSecurity
+
+  - title: TariScript
+    abstract: |
+     This Request for Comment (RFC) presents a proposal for introducing [TariScript] into the Tari base layer protocol. Tari
+     Script aims to provide a general mechanism for enabling further extensions such as side-chains, the DAN, one-sided
+     payments and atomic swaps.
+    url: https://rfc.tari.com/RFC-0201_TariScript
+
+  - title: TariScript Opcodes
+    abstract: |
+     This Request for Comment (RFC) defines the opcodes that make up the TariScript scripting language and provides some
+     examples and applications.
+    url: https://rfc.tari.com/RFC-0202_TariScriptOpcodes
+
+  - title: Digital Assets Network
+    abstract: |
+        The aim of this Request for Comment (RFC) is to describe the key elements of the Tari second layer, also known as the
+        Digital Assets Network (DAN).
+    url: https://rfc.tari.com/RFC-0303_DanOverview
+
+  - title: The Tari Network Consensus Layer
+    abstract: |
+      This Request for Comment (RFC) describe the consensus mechanism known as Cerberus as it is implemented in Tari.
+      Tari implements the Cerberus variant known as Pessimistic Cerberus, for the most part, with Hotstuff BFT replacing
+      pBFT as described in the Cerberus paper.
+    url: https://rfc.tari.com/RFC-0305_Consensus
+
+  - title: The DAN peg-in mechanism, or Turbine model
+    abstract: |
+     Tari is used to power the DAN's economic engine.
+     This RFC describes the motivation and mechanism of the Minotari to DAN peg-in mechanism.
+    url: https://rfc.tari.com/RFC-0320_TurbineModel
+
+  - title: The Tari throttle, or Layer 2 burn rate controller
+    abstract: |
+      This RFC provides an introductory exploratory analysis into the mechanisms behind a proposed Tari throttle: a Layer
+      2 controller for the L2 fee burn rate to control the Tari circulating supply.
+    url: https://rfc.tari.com/RFC-0323_TariThrottle
+
+  - title: The Tari Cerberus-Hotsuff Consensus Algorithm
+    abstract: |
+      This Request for Comment (RFC) describe the consensus mechanism known as Cerberus as it is implemented in Tari.
+      Tari implements the Cerberus variant known as Optimistic Cerberus, for the most part, with Hotstuff BFT replacing
+      pBFT as described in the Cerberus paper.
+    url: https://rfc.tari.com/RFC-0330_Cerberus
+
+  - title: The Tari Virtual Machine
+    abstract: This RFC describes the design goals and rationale for the Tari Virtual Machine (TVM).
+    url: https://rfc.tari.com/RFC-0350_TariVM
+
+  - title: Privacy-enabled Stablecoin contract design
+    abstract: |
+      This Request for Comment (RFC) describes the a possible manifestation of a privacy-preserving
+      stablecoin on the Tari Digital Assets Network (DAN).
+    url: https://rfc.tari.com/RFC-0385_StableCoins
+
+videos:
+
