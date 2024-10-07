@@ -1,0 +1,51 @@
+- name: Tari Labs
+  url: https://tari.com
+  logo: "/img/tari_logo_black.ico"
+  role: Head of Engineering
+  period: 2018-2024
+  content: |
+      <p>Tari is a privacy-focused digital assets protocol.</p>
+      <p>Tari resolves the blockchain trilemma by employing a two-layer architecture. The base layer is a
+      Mimblewimble-based cryptocurrency secured by proof-of-work. The second layer is a Byzantine Fault
+      Tolerant (BFT) self-sharding assets protocol with Turing-complete smart contract capabilities focused
+      on scaling and performance.
+      </p>
+      <ul>
+        <li>Joined as employee #1 in 2018</li>
+        <li>Recruited and managed a team of 20 engineers</li>
+        <li>Launched the first Tari testnet in April 2020</li>
+        <li>Invented  TariScript, a dynamic scripting language for Mimblewimble</li>
+        <li>Layer 1 audits completed Q4 2023</li>
+        <li>Layer 2 testnet launched Q1 2024</li>
+      </ul>
+- name: Big Neon
+  logo: "/img/bigneon.png"
+  role: Head of Engineering
+  period: 2018-2020
+  content: |
+    <p>
+      Big Neon is a modern, mobile-first platform that moves beyond just selling tickets.
+      It helps music promoters increase revenue and compete in the secondary sales
+      market.
+      Starting June 2018, my brief was to build an engineering team and deliver the first
+      go-to-market version of Big Neon in 9 months. The first Big Neon tickets were
+      sold in January 2019. Big Neon realised over $2 million dollars in sales before the
+      Covid-19 pandemic shut down all events in the U.S. and abroad and effectively
+      killed Big Neon as a going concern.
+    </p>
+- name: Yat Labs
+  url: https://y.at
+  logo: "/img/yat.svg"
+  role: Head of Engineering
+  period: 2020-2021
+  content: |
+    <p>
+      Yats are short emoji strings that serve as universal usernames for the Metaverse. Somewhere between a domain name 
+      and a social media handle, Yats allow you to unify your online brand or identity under one short, memorable emoji
+      string.
+    </p>
+    <ul>
+      <li>Recruited and managed a team of up to 30 engineers.</li>
+      <li>Wrote the MVP of Yat server in Rust.</li>
+      <li>Wrote and deployed Yat Gem NFT contract</li>
+    </ul>

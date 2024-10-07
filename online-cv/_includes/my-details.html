@@ -1,0 +1,42 @@
+<div class="mt-4 container">
+    <div class="row mt-4">
+        <div class="col-12 text-center">
+            <h1 class="display-1 text-center">{{ site.curriculum_vitae.name }} </h1>
+            {% if site.description %}
+                <p>{{site.description}}</p>
+            {% endif %}
+        </div>
+    </div>
+    <div class="row align-items-end m-2">
+        <div class="col-md-4 text-left">
+            {% if site.curriculum_vitae.socials %}
+            <ul class="list-unstyled">
+                {% for item in site.curriculum_vitae.socials %}
+                <li><i class="fab {{ item.icon }}"></i> <a class="socials" href="{{ item.url }}">{{ item.name }}</a></li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+        </div>
+        <div class="col-md-4 text-center">
+            <img src="{{ site.curriculum_vitae.profile_pic }}" class="rounded-circle profile-img" style="width: 256px; height: 256px;">
+        </div>
+
+        <div class="col-md-4">
+            {% if site.curriculum_vitae.info %}
+            <ul class="list-unstyled justify-content-end text-end">
+                {% if site.curriculum_vitae.info.residence %}
+                <li><b>Residence:</b> {{ site.curriculum_vitae.info.residence }} <i style="padding-left: 0.5em" class="fa fa-address-card"></i> </li>
+                {% endif %}
+                {% if site.curriculum_vitae.info.citizenship %}
+                <li><b>Citizenship:</b> {{ site.curriculum_vitae.info.citizenship }} <i style="padding-left: 0.5em" class="fa fa-passport"></i> </li>
+                {% endif %}
+                {% if site.curriculum_vitae.info.email %}
+                <li><b>Email:</b> {{ site.curriculum_vitae.info.email }} <i style="padding-left: 0.5em" class="fa fa-envelope"></i> </li>
+                {% endif %}
+            </ul>
+            {% endif %}
+        </div>
+
+    </div>
+
+</div>

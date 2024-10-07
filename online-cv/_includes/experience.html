@@ -1,0 +1,31 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Experience</h2>
+        </div>
+    </div>
+
+    {% for company in site.data.experience %}
+    <div class="row m-2 align-items-baseline">
+        <div class="col-md-1">
+            <div class="p-2">
+                <img src="{{ company.logo }}" class="img-fluid" alt="{{ company.name }}">
+            </div>
+        </div>
+        <div class="col-md-3">
+            <h4>{{ company.role }}</h4>
+            <h5>{{ company.name }}
+            {% if company.url %}
+            <a href="{{ company.url }}" target="_blank"><i class="fa fa-globe-africa"></i></a>
+            {% endif %}
+            </h5>
+            <h6>{{ company.period }}</h6>
+        </div>
+        <div class="col-md-8">
+            {{ company.content }}
+        </div>
+    </div>
+    {% endfor %}
+
+
+</div>

@@ -1,0 +1,17 @@
+@import "mixins";
+
+.profile-img {
+  border: #0a0a0a solid 5px;
+
+}
+
+a.socials {
+    color: #0a0a0a;
+    padding-left: 0.5em;
+    text-decoration: none;
+    @include transition(color .2s ease-in-out);
+    &:hover {
+      color: $secondary;
+      text-decoration: underline;
+    }
+}

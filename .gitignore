@@ -1,0 +1,8 @@
+*.gem
+.bundle
+.sass-cache
+_site
+*.code-workspace
+vendor
+
+bootstrap-5.3.3
