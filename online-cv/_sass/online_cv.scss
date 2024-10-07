@@ -25,3 +25,9 @@ a.publications {
     text-decoration: underline;
   }
 }
+
+.video-content iframe {
+  width: 100%;
+  max-width: 560px;
+  height: 315px;
+}

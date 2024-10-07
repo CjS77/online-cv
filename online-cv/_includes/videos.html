@@ -1,0 +1,16 @@
+<div class="d-flex flex-column gap-2 ms-md-4 me-md-4 mt-5">
+    {% for video in site.data.publications.videos %}
+    <div class="mb-5 d-flex flex-wrap align-items-center gap-1 {% cycle 'flex-row-reverse', '' %} ">
+        <div class="align-content-center ps-4 pe-4 col-md-7 mb-3">
+            <h3>{{ video.title }}</h3>
+            <div>
+                {{ video.description }}
+            </div>
+        </div>
+        <div class="video-content col-12 col-md">
+            <iframe src="{{ video.url }}" allowfullscreen width="100%"></iframe>
+        </div>
+
+    </div>
+    {% endfor %}
+</div>

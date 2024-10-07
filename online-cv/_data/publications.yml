@@ -157,4 +157,25 @@ technical:
     url: https://rfc.tari.com/RFC-0385_StableCoins
 
 videos:
+  - title: A non-scary intro to Elliptic curve cryptography
+    description: |
+      What are elliptic curves, and how do they help secure cryptocurrencies?
+    url: https://www.youtube.com/embed/69bl6dfM6jI
+  - title: Introduction to the Advent of Code series
+    description: |
+      <p>This series of 23 videos solves Advent of Code 2020 series of problems using idiomatic Rust.</p>
+      <p>If you're a beginner or intermediate level Rust coder and want to uncover some different ways of solving the 
+      AOC challenges, then this is the series for you!</p>
+    url: https://www.youtube.com/embed/69bl6dfM6jI
+  - title: "Non-interactive protocols for Mimblewimble"
+    description: |
+     <p>Mimblewimble is a scalable, lightweight, private cryptocurrency protocol. One of its drawbacks is that transactions
+     are interactive, meaning that the sender and receiver must communicate in order to complete the transaction.</p>
+     <p>Learn how Tari managed to add scripting into Mimblewimble to allow non-interactive transactions to take place.</p>
+    url: https://www.youtube.com/embed/tVk64lLurCU
+  - title: "Sovereign Money and Freedom. Where to From Here?"
+    description: |
+      <p>Money, energy, privacy and freedom are intertwined. Without private money, can we really be masters of our own
+      outputs and therefore be free?</p>
+    url: https://www.youtube.com/embed/Zfeuk69wp0A
 

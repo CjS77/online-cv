@@ -1,40 +1,34 @@
 <!----------------------------------------------- Hero buttons ----------------------------------------------->
-<div class="container">
-    <div class="row">
-        <div class="col-md-12">
-            <div>
-                {% if site.hero_buttons %}
-                {% for button_info in site.hero_buttons %}
-
-                <button
-                    class="hero btn btn-primary btn-lg .col-2 {% unless forloop.first %}collapsed{% endunless %}"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#{{ button_info.section }}"
-                    aria-expanded="{% if forloop.first %}true{% else %}false{% endif %}"
-                    aria-controls="{{ button_info.section }}"
-                >
-                    {% if button_info.icon %}
-                    <i class="fa-solid {{ button_info.icon }} fa-lg me-1"></i>
-                    {% endif %}
-                    {{ button_info.name }}
-                </button>
-
-                {% endfor %}
-
-                {% endif %}
-            </div>
-        </div>
-    </div>
+{% if site.hero_buttons %}
+<div class="mt-5 mb-5">
+<ul class="ps-4 pe-4 nav nav-pills justify-content-center" id="hero-buttons" role="tablist">
+    {% for button_info in site.hero_buttons %}
+    <li class="nav-item" role="presentation">
+        <button
+            class="hero mt-1 mb-1 nav-link {% if forloop.first %}active{% endif %}"
+            aria-selected="{% if forloop.first %}true{% else %}false{% endif %}"
+            id="{{ button_info.section }}-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#{{ button_info.section }}"
+            type = "button"
+            role = "tab"
+            aria-controls="{{ button_info.section }}"
+        >
+                {% if button_info.icon %}<i class="fa-solid {{ button_info.icon }} fa-lg me-1"></i>{% endif %}{{ button_info.name }}
+        </button>
+    </li>
+    {% endfor %}
+</ul>
 </div>
+{% endif %}
 
 <!-- -------------------------------- Hero Sections ---------------------------->
-<div>
-    <div class="collapse show" id="experience">
+<div class="tab-content">
+    <div class="tab-pane fade show active" role="tabpanel" aria-labelledby="experience-tab" id="experience">
         {% include experience.html %}
     </div>
 
-    <div class="container collapse" id="projects">
+    <div class="tab-pane fade" role="tabpanel" aria-labelledby="projects-tab" id="projects">
         <div class="row">
             <div class="col-md-12">
                 <div class="hero-content">
@@ -45,7 +39,7 @@
         </div>
     </div>
 
-    <div class="container collapse" id="patents">
+    <div class="tab-pane fade" role="tabpanel" aria-labelledby="patents-tab" id="patents">
         <div class="row">
             <div class="col-md-12">
                 <div class="hero-content">
@@ -56,8 +50,12 @@
         </div>
     </div>
 
-    <div class="container collapse m-2" id="publications">
+    <div class="tab-pane fade" role="tabpanel" aria-labelledby="publications-tab" id="publications">
         {% include publications.html %}
+    </div>
+
+    <div class="tab-pane fade" role="tabpanel" aria-labelledby="publications-tab" id="videos">
+        {% include videos.html %}
     </div>
 
 </div>
