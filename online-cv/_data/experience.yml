@@ -11,12 +11,12 @@
       on scaling and performance.
       </p>
       <ul>
-        <li>Joined as employee #1 in 2018</li>
-        <li>Recruited and managed a team of 20 engineers</li>
-        <li>Launched the first Tari testnet in April 2020</li>
-        <li>Invented  TariScript, a dynamic scripting language for Mimblewimble</li>
+        <li>Joined as <b>employee #1</b> in 2018</li>
+        <li><b>Recruited and managed</b> a team of 20 engineers</li>
+        <li>Launched the first <b>Tari testnet</b> in April 2020 (Rust)</li>
+        <li>Invented <b>TariScript</b>, a dynamic scripting language for Mimblewimble</li>
         <li>Layer 1 audits completed Q4 2023</li>
-        <li>Layer 2 testnet launched Q1 2024</li>
+        <li>Layer 2 testnet launched Q1 2024 (Rust)</li>
       </ul>
 - name: Big Neon
   logo: "/img/bigneon.png"
@@ -24,9 +24,9 @@
   period: 2018-2020
   content: |
     <p>
-      Big Neon is a modern, mobile-first platform that moves beyond just selling tickets.
-      It helps music promoters increase revenue and compete in the secondary sales
-      market.
+      Big Neon was a modern, mobile-first ticketing platform that moves beyond just selling tickets. It was based in Oaklnad, California.
+    </p>
+    <p>
       Starting June 2018, my brief was to build an engineering team and deliver the first
       go-to-market version of Big Neon in 9 months. The first Big Neon tickets were
       sold in January 2019. Big Neon realised over $2 million dollars in sales before the
@@ -39,13 +39,74 @@
   role: Head of Engineering
   period: 2020-2021
   content: |
+    <P>Yat Labs is a digital services company that builds and maintains the Yat ecosystem. It is based in Nashville, Tennessee.</p>
     <p>
       Yats are short emoji strings that serve as universal usernames for the Metaverse. Somewhere between a domain name 
       and a social media handle, Yats allow you to unify your online brand or identity under one short, memorable emoji
       string.
     </p>
     <ul>
-      <li>Recruited and managed a team of up to 30 engineers.</li>
-      <li>Wrote the MVP of Yat server in Rust.</li>
-      <li>Wrote and deployed Yat Gem NFT contract</li>
+      <li><b>Recruited and managed</b> a team of up to 30 engineers.</li>
+      <li><b>Coded</b> the MVP of Yat server (Rust).</li>
+      <li>Wrote and deployed Yat Gem <b>NFT contract</b> (Solidity)</li>
+      <li>Saw site grow from 0 to 71,000 users and <b>$20mil in revenue</b> in 2 years.</li>
     </ul>
+- name: Coinbase
+  logo: "/img/coinbase.png"
+  url: https://coinbase.com
+  role: Senior Backend Engineer
+  period: 2016-2018
+  content: |
+    <p>
+      Coinbase is a digital currency exchange headquartered in San Francisco, California. 
+    </p>
+    <ul>
+      <li>Contributed to GDAX (Coinbase exchange) <b>backend API</b> (NodeJs).</li>
+      <li>Developed and maintained <b>automated trading algorithms</b> (NodeJs).</li>
+      <li>Developed and maintained <b>query system</b> for > 2TB of exchange log files</li>
+      <li>Wrote <b>GDAX Trading toolkit</b> (NodeJs, FOSS).</li>
+    </ul>
+- name: Nimbus Technologies
+  logo: "/img/nimbus.png"
+  role: Founder and managing director
+  period: 2012-2016
+  content: |
+    Nimbus Technologies was a process modelling and optimisation services company that served the chemical and mining
+    industries in South Africa.
+    <ul>
+      <li><b>Bitcoin Mining Economics.</b> Research into supply-side economics of Bitcoin.</li>
+      <li><b>MineTrak.</b> Developed, marketed and offered support services for the industry-leading mobile mine 
+      planning application.</li>
+      <li><b>Process Modelling Consulting.</b> Nimbus offered consulting and modelling services for Process and 
+      Business optimisation as well as training in Process Engineering modelling tools, with particular focus on 
+      <a href="https://www.siemens.com/global/en/products/automation/industry-software/gproms-digital-process-design-and-operations/gproms-modelling-environments.html">gPROMS</a>. 
+      Clients included 3 of the top 4 Universities in South Africa.</li>
+    </ul>
+- name: Sasol
+  logo: "/img/sasol.png"
+  role: Senior Process Engineer
+  period: 2003-2015
+  content: |
+    Sasol is an international integrated energy and petrochemical company based in Johannesburg, South Africa.
+    <ul>
+      <li>Developed and maintained <b>process models</b> for Sasol's Fischer-Tropsch and Gas-to-Liquids plants.</li>
+      <li>Developed <b>holistic techno-economic modelling paradigm</b> that led to 40% saving in capital of $3bil process design.</li>
+      <li>Taught post-graduate Process Modelling computation course at <b>University of Cape Town</b>.</li>
+      <li>Chairman of Junior Engineers' Forum.</li>
+    </ul>
+- name: B.Sc.
+  logo: "/img/uct.jpg"
+  role: University of Cape Town
+  period: 1996-1999
+  content: Graduated with a BSc (Eng) in Chemical Engineering <i>summa cum laude</i>.
+- name: M.Sc.
+  logo: "/img/uct.jpg"
+  role: University of Cape Town
+  period: 2000-2001
+  content: Graduated with a MSc (Eng) in Chemical Engineering with thesis entitled <i>"The design and modelling of a Pressure Swing Reactor"</i>.
+- name: B.A.
+  logo: "/img/unisa.jpg"
+  role: UNISA
+  period: 2003-2006
+  content: Bachelor of Arts (Philosophy, Creative Writing and Literary Theory), University of South Africa. Graduated with Distinction.
+
