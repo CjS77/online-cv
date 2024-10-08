@@ -8,10 +8,6 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # Build settings
 theme: minima
 markdown: kramdown
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-
 sass:
   sass_dir: _sass
   style: compressed
