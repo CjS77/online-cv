@@ -96,5 +96,36 @@
         </div>
     </div>
 
+    <!-------------------------  Patents -------------------------->
+    <div class="col-md-12 mt-2">
+        <h3><i class="fa fa-landmark me-2"></i>Patents</h3>
+    </div>
+    <div class="pe-5 ps-1">
+        <div class="table-responsive">
+            <table class="table table-default table-striped">
+                <thead>
+                <th>#</th>
+                <th>Author</th>
+                <th>Title</th>
+                <th>Jurisdiction</th>
+                <th>Date</th>
+                </thead>
+                {% for patent in site.data.publications.patents %}
+                <tr>
+                    <td>
+                        <a href="{{ patent.url }}" target="_blank" class="publications">{{ patent.number }}</a>
+                    </td>
+                    <td>{{ patent.author }}</td>
+                    <td>
+                        <a href="{{ patent.url }}" target="_blank" class="publications">{{ patent.title }}</a>
+                    </td>
+                    <td>{{ patent.location }}</td>
+                    <td>{{ patent.date }}</td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+    </div>
+
 
 </div>

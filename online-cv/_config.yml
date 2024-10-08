@@ -148,7 +148,3 @@ hero_buttons:
     url: '#videos'
     icon: fa-video
     section: videos
-  - name: Patents
-    url: '#patents'
-    icon: fa-landmark
-    section: patents

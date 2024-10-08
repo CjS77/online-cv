@@ -179,3 +179,33 @@ videos:
       outputs and therefore be free?</p>
     url: https://www.youtube.com/embed/Zfeuk69wp0A
 
+patents:
+  - title: Conversion of olefin to alcohols,
+    author: Sharrock, C. J. and  Otto, F. and Julius, G.
+    number: 201202198
+    location: World
+    date: 2013-10-03
+    url: https://patentimages.storage.googleapis.com/e9/d7/af/998f9323f832e4/WO2013144735A1.pdf
+
+  - title: Systems and methods for generating, securing, and maintaining emoji sequence digital tokens
+    author: Jain, N and Spagni, R. and Sharrock, C. J.
+    number: US-11880830
+    location: U.S.
+    date: 2024-01-23
+    url: https://ppubs.uspto.gov/dirsearch-public/print/downloadBasicPdf/20220092588?requestToken=eyJzdWIiOiI1Y2E1MjE2Ni1lZTcwLTRhNDctOWRlMC01OTI0NTZiZTA0ZGQiLCJ2ZXIiOiJkZjcyNzJmYy1iNzc4LTQ1YWEtOGFiZS02YTMxMzY4YWVhYTAiLCJleHAiOjB9
+
+  - title: Anti-spoofing for Emoji identifications
+    author: Sharrock, C.J.
+    number: US-20220358169
+    location: U.S.
+    date: 2022-11-10
+    url: https://ppubs.uspto.gov/dirsearch-public/print/downloadBasicPdf/20220358169?requestToken=eyJzdWIiOiI1Y2E1MjE2Ni1lZTcwLTRhNDctOWRlMC01OTI0NTZiZTA0ZGQiLCJ2ZXIiOiI4NWI2ZmYwOC1kZTVjLTQ3YWMtYThjMS1mOTliNTdhZDEzM2UiLCJleHAiOjB9
+
+  - title: Providence Certification
+    author: Sharrock, C.J.
+    number: US-20230048293
+    location: U.S.
+    date: 2023-02-16
+    url: https://ppubs.uspto.gov/dirsearch-public/print/downloadBasicPdf/20230048293?requestToken=eyJzdWIiOiI1Y2E1MjE2Ni1lZTcwLTRhNDctOWRlMC01OTI0NTZiZTA0ZGQiLCJ2ZXIiOiI4NWI2ZmYwOC1kZTVjLTQ3YWMtYThjMS1mOTliNTdhZDEzM2UiLCJleHAiOjB9
+
+
