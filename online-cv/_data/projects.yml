@@ -22,3 +22,28 @@
     * Wrote first iteration of the emoji-id backend and REST API, including DNS features, url tags, rarity and pricing algorithm.
     * Created the self-minting mechanism for emoji-ids, which allows users to mint their own emoji-ids as [NFTs](https://opensea.io/collection/yat).
   tech_stack: Rust, Postgres, React, Typescript
+
+- title: Tari payment server
+  website:
+  github: https://github.com/CjS77/tari_payment_server
+  clip:
+  screenshot2: tps_screenshot.png
+  lead: Accept Tari payments on shopify with Tari payment server
+  description: |
+    Tari Payment server is a server that allows you to accept Tari payments for orders on your store. 
+    It runs independently of your store and your hot wallet, and is primarily responsible for one thing: 
+    matching payments to the hot wallet to orders made on the store.
+    
+    Sole developer and maintainer of the project as of October 2024.
+  tech_stack: Rust, MySql, Actix-web
+
+- title: The GDAX trading toolkit
+  website: https://www.coinbase.com/en-pt/advanced-trade/spot/BTC-USD
+  github: https://github.com/coinbase/coinbase-pro-trading-toolkit
+  screenshot2: gtt_steampunk.webp
+  lead: |
+    Provides all the tools traders need to create automated trading bots on GDAX and supported digital asset exchanges.
+  description: |
+      * Coinbase's most popular open-source project as of April 2018, with 800+ stars and 200+ forks.
+      * Sole developer and maintainer from 2017 to April 2018.
+  tech_stack: Node.js, Typescript

@@ -1,53 +1,19 @@
 <div class="d-flex flex-column gap-2 ms-md-4 me-md-4 mt-5">
     {% for project in site.data.projects %}
     <hr class="border-dark">
-    <div class="row offset-4 col-8 align-items-end">
-        <h1 class="">{{ project.title }}</h1>
+    <div class="row col-12">
+        <h1 class="text-center">{{ project.title }}</h1>
     </div>
     <hr class="border-dark-subtle">
-    <div class="row d-flex flex-wrap ms-2">
-        {% if project.screenshot2 %}
-        <div class="ps-2 pe-2 col-md-7 border-dark-subtle shadow-sm">
-            <img class="img-responsive" src="/img/projects/{{ project.screenshot2 }}" alt="{{ project.website }}"></img>
-        </div>
+    <div class="d-block d-md-none">
+        {% include project_sans_clip.html %}
+    </div>
+    <div class="d-none d-md-block">
+        {% if project.clip %}
+        {% include project_with_clip.html project=project %}
+        {% else %}
+        {% include project_sans_clip.html %}
         {% endif %}
-        <div class="col-md-5 on-top">
-            <p class="lead"><strong>{{ project.lead | markdownify }}</strong></p>
-            <p>{{ project.description | markdownify }}</p>
-        </div>
     </div>
-    <div class="row d-flex flex-wrap">
-        <div class="col-md-4">
-            <!-- Info card -->
-            <div class="project-card ms-2 on-top position-relative">
-                <h5 class="m-2">Key project information</h5>
-                <ul class="list-unstyled ps-2 pe-2">
-                    <li>
-                        <i class="fa fa-globe me-1"></i><a class="socials" href="{{ project.website }}" target="_blank">Website</a>
-                    </li>
-                    <li>
-                        <i class="fab fa-github me-1"></i><a class="socials" href="{{ project.github }}" target="_blank">Source code</a>
-                    </li>
-                    <li>
-                        <i class="fa fa-gears me-1"></i>{{ project.tech_stack  }}
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="col-md-8 shift-up-left">
-            {% if project.clip %}
-            <div class="position-relative overflow-visible col-overflow">
-                <video autoplay loop class="position-relative video-content-lg shadow-sm">
-                    <source src="/img/projects/{{ project.clip }}" type="video/webm">
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-            {% else %}
-            <img class="img-responsive" src="/img/projects/{{ project.screenshot }}" alt="{{ project.title }}">
-            {% endif %}
-        </div>
-    </div>
-</div>
-
-{% endfor %}
+    {% endfor %}
 </div>

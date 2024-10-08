@@ -12,7 +12,7 @@
             {% if site.curriculum_vitae.socials %}
             <ul class="list-unstyled">
                 {% for item in site.curriculum_vitae.socials %}
-                <li><i class="fab {{ item.icon }}"></i> <a class="socials" href="{{ item.url }}">{{ item.name }}</a></li>
+                <li><i class="fab {{ item.icon }}"></i> <a class="socials" target="_blank" href="{{ item.url }}">{{ item.name }}</a></li>
                 {% endfor %}
             </ul>
             {% endif %}

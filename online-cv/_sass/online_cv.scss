@@ -32,14 +32,19 @@ a.publications {
   height: 315px;
 }
 
+.video-content iframe {
+  width: 100%;
+  max-width: 560px;
+  height: 100%;
+}
+
 .video-content-lg {
   max-width: 650px;
 }
 
 div.project-card {
-  @extend %opensans;
-  background-color: $gray-200;
-  border: 1px solid $gray-600;
+  border: 1px solid $gray-300;
+  font-size: 10pt;
   width: 100%;
   //box-shadow: $primary 0px 0px 10px;
 }
@@ -56,4 +61,11 @@ div.project-card {
 .col-overflow {
   margin-left: 0%; /* Adjust to overflow into adjacent columns */
   width: calc(100% + 25%); /* Adjust to maintain the 7 columns width */
+}
+
+// Make the text in tables smaller on mobile
+@media (max-width: 575.98px) {
+  .table {
+    font-size: 9pt;
+  }
 }
