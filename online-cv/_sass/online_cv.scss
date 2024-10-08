@@ -26,8 +26,34 @@ a.publications {
   }
 }
 
-.video-content iframe {
+.video-content {
   width: 100%;
   max-width: 560px;
   height: 315px;
+}
+
+.video-content-lg {
+  max-width: 650px;
+}
+
+div.project-card {
+  @extend %opensans;
+  background-color: $gray-200;
+  border: 1px solid $gray-600;
+  width: 100%;
+  //box-shadow: $primary 0px 0px 10px;
+}
+
+.shift-up-left {
+  transform: translate(0%, -25%);
+  z-index: 1; /* Ensure it overlaps other elements */
+}
+
+.on-top {
+    z-index: 10;
+}
+
+.col-overflow {
+  margin-left: 0%; /* Adjust to overflow into adjacent columns */
+  width: calc(100% + 25%); /* Adjust to maintain the 7 columns width */
 }

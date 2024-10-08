@@ -1,0 +1,24 @@
+- title: The Tari Protocol
+  website: https://tari.com
+  github: https://github.com/tari-project/tari
+  clip: wallet_screencast.webm
+  screenshot2: tari_website.png
+  lead: A Layer 1 blockchain protocol based on Mimblewimble and secured by proof-of-work.
+  description: |
+    * Lead developer and maintainer from project commencement in 2019 to 2024.
+    * Core repository contains nearly 300,000 lines of Rust code.
+    * Contributed most of the `tari-crypto` library, the core consensus state machine, merkle tree implementations,
+      TariScript, and transaction protocols.
+  tech_stack: Rust, MySql
+
+- title: Yat
+  website: https://y.at
+  github:
+  clip: yat_screencast.webm
+  screenshot2: yat_screenshot.png
+  lead: Unite your online presence under a single, memorable emoji word.
+  description: |
+    * Recruited and managed engineering, dev-ops and security teams from 2020 to 2023.
+    * Wrote first iteration of the emoji-id backend and REST API, including DNS features, url tags, rarity and pricing algorithm.
+    * Created the self-minting mechanism for emoji-ids, which allows users to mint their own emoji-ids as [NFTs](https://opensea.io/collection/yat).
+  tech_stack: Rust, Postgres, React, Typescript
