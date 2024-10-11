@@ -166,7 +166,7 @@ videos:
       <p>This series of 23 videos solves Advent of Code 2020 series of problems using idiomatic Rust.</p>
       <p>If you're a beginner or intermediate level Rust coder and want to uncover some different ways of solving the 
       AOC challenges, then this is the series for you!</p>
-    url: https://www.youtube.com/embed/69bl6dfM6jI
+    url: https://www.youtube.com/embed/ysj0tnpbtpE?list=PLeSGG7k3MJmAJto72S2nn63j6eU8mVeiF&index=2
   - title: "Non-interactive protocols for Mimblewimble"
     description: |
      <p>Mimblewimble is a scalable, lightweight, private cryptocurrency protocol. One of its drawbacks is that transactions
